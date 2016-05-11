@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Peluchitos</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="agregar">Agregar</string>
+    <string name="buscar">Buscar</string>
+    <string name="buscarlegend">Busca tu peluchito</string>
+    <string name="ventalegend">Adopta un peluchito</string>
+    <string name="ventaventalegend">Cuantos peluchitos quieres llevar?</string>
+
+    <string name="actualizar">Actualizar</string>
+    <string name="actualizarlegend">Actualizar peluchitos</string>
+    <string name="agregarlegend">Actualizar peluchitos</string>
+    <string name="eliminarlegend">Eliminar peluchito, ingrese nombre</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string-array name="Tags">
+        <item>Buscar Peluchito</item>
+        <item>Agregar Peluchito</item>
+        <item>Actualizar Peluchito</item>
+        <item>Eliminar Peluchito</item>
+        <item>Ganancias de Peluchitos</item>
+        <item>Nuestros Peluchitos</item>
+        <item>Compra Peluchitos</item>
+    </string-array>
+</resources>

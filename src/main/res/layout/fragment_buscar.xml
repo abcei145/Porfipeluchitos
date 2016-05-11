@@ -1,0 +1,74 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.monica.peluchitos.BuscarFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/buscarlegend"
+            android:id="@+id/author"
+            android:textSize="35dp"
+            android:textStyle="bold|italic"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/NombreBuscar"
+            android:hint="Nombre Peluchito"
+            android:layout_centerHorizontal="true"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buscar"
+            android:id="@+id/buscar"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/IdentificacionBuscar"
+            android:editable="false"
+            android:hint="Id peluchito"
+            android:layout_centerHorizontal="true"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Cantidad"
+            android:editable="false"
+            android:ems="10"
+            android:id="@+id/CantidadBuscar"
+            android:layout_centerHorizontal="true"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Valor"
+            android:editable="false"
+            android:ems="10"
+            android:id="@+id/ValorBuscar"
+            android:layout_centerHorizontal="true"/>
+
+
+
+
+    </LinearLayout>
+</FrameLayout>
